@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Maximized Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Username is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logedout Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23496" started-at="2022-02-05T20:18:44 IST" finished-at="2022-02-05T20:19:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23496" started-at="2022-02-05T20:18:44 IST" finished-at="2022-02-05T20:19:08 IST">
+      <class name="purchageOrder.TC_15Test">
+        <test-method status="PASS" signature="launchTheApplication()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="launchTheApplication" is-config="true" duration-ms="7588" started-at="2022-02-05T20:18:44 IST" finished-at="2022-02-05T20:18:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Maximized Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login Page Displayed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheApplication -->
+        <test-method status="PASS" signature="loginToTheApplication()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="loginToTheApplication" is-config="true" duration-ms="3040" started-at="2022-02-05T20:18:52 IST" finished-at="2022-02-05T20:18:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Username is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Home Page is Displayed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToTheApplication -->
+        <test-method status="PASS" signature="creatPurchageOrderWithAllManditoryFieldsxceptItems()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="creatPurchageOrderWithAllManditoryFieldsxceptItems" duration-ms="7647" started-at="2022-02-05T20:18:55 IST" finished-at="2022-02-05T20:19:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatPurchageOrderWithAllManditoryFieldsxceptItems -->
+        <test-method status="PASS" signature="logoutOfTheApplication()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="logoutOfTheApplication" is-config="true" duration-ms="2182" started-at="2022-02-05T20:19:03 IST" finished-at="2022-02-05T20:19:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logedout Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOfTheApplication -->
+        <test-method status="PASS" signature="closeTheApp()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="closeTheApp" is-config="true" duration-ms="2967" started-at="2022-02-05T20:19:05 IST" finished-at="2022-02-05T20:19:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheApp -->
+      </class> <!-- purchageOrder.TC_15Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
