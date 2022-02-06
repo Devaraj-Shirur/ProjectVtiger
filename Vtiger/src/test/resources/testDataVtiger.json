@@ -1,0 +1,8 @@
+{
+"VtURL":"http://localhost:8888/",
+"CHROMEPATH":"./src/test/resources",
+"CHROMEKEY":"webdriver.chrome.driver",
+"USERNAME":"admin",
+"PASSWORD":"root"
+
+}

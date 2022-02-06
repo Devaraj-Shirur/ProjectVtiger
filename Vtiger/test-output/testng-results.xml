@@ -20,15 +20,18 @@
       <![CDATA[Home Page is Displayed Successfully]]>
     </line>
     <line>
+      <![CDATA[The order of the item has moved Down]]>
+    </line>
+    <line>
       <![CDATA[Logedout Successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23496" started-at="2022-02-05T20:18:44 IST" finished-at="2022-02-05T20:19:08 IST">
+  <suite name="Default suite" duration-ms="56385" started-at="2022-02-06T13:55:06 IST" finished-at="2022-02-06T13:56:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23496" started-at="2022-02-05T20:18:44 IST" finished-at="2022-02-05T20:19:08 IST">
-      <class name="purchageOrder.TC_15Test">
-        <test-method status="PASS" signature="launchTheApplication()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="launchTheApplication" is-config="true" duration-ms="7588" started-at="2022-02-05T20:18:44 IST" finished-at="2022-02-05T20:18:52 IST">
+    <test name="Default test" duration-ms="56385" started-at="2022-02-06T13:55:06 IST" finished-at="2022-02-06T13:56:02 IST">
+      <class name="purchageOrder.TC_11Test">
+        <test-method status="PASS" signature="launchTheApplication()[pri:0, instance:purchageOrder.TC_11Test@f0da945]" name="launchTheApplication" is-config="true" duration-ms="16021" started-at="2022-02-06T13:55:06 IST" finished-at="2022-02-06T13:55:22 IST">
           <reporter-output>
             <line>
               <![CDATA[Browser launched Successfully]]>
@@ -41,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchTheApplication -->
-        <test-method status="PASS" signature="loginToTheApplication()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="loginToTheApplication" is-config="true" duration-ms="3040" started-at="2022-02-05T20:18:52 IST" finished-at="2022-02-05T20:18:55 IST">
+        <test-method status="PASS" signature="loginToTheApplication()[pri:0, instance:purchageOrder.TC_11Test@f0da945]" name="loginToTheApplication" is-config="true" duration-ms="9236" started-at="2022-02-06T13:55:22 IST" finished-at="2022-02-06T13:55:31 IST">
           <reporter-output>
             <line>
               <![CDATA[Username is entered successfully]]>
@@ -54,22 +57,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginToTheApplication -->
-        <test-method status="PASS" signature="creatPurchageOrderWithAllManditoryFieldsxceptItems()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="creatPurchageOrderWithAllManditoryFieldsxceptItems" duration-ms="7647" started-at="2022-02-05T20:18:55 IST" finished-at="2022-02-05T20:19:03 IST">
+        <test-method status="PASS" signature="creatPurchageOrderwithItemAndClickonDownordButton()[pri:0, instance:purchageOrder.TC_11Test@f0da945]" name="creatPurchageOrderwithItemAndClickonDownordButton" duration-ms="25397" started-at="2022-02-06T13:55:31 IST" finished-at="2022-02-06T13:55:57 IST">
           <reporter-output>
+            <line>
+              <![CDATA[The order of the item has moved Down]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- creatPurchageOrderWithAllManditoryFieldsxceptItems -->
-        <test-method status="PASS" signature="logoutOfTheApplication()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="logoutOfTheApplication" is-config="true" duration-ms="2182" started-at="2022-02-05T20:19:03 IST" finished-at="2022-02-05T20:19:05 IST">
+        </test-method> <!-- creatPurchageOrderwithItemAndClickonDownordButton -->
+        <test-method status="PASS" signature="logoutOfTheApplication()[pri:0, instance:purchageOrder.TC_11Test@f0da945]" name="logoutOfTheApplication" is-config="true" duration-ms="4816" started-at="2022-02-06T13:55:57 IST" finished-at="2022-02-06T13:56:02 IST">
           <reporter-output>
             <line>
               <![CDATA[Logedout Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logoutOfTheApplication -->
-        <test-method status="PASS" signature="closeTheApp()[pri:0, instance:purchageOrder.TC_15Test@29b5cd00]" name="closeTheApp" is-config="true" duration-ms="2967" started-at="2022-02-05T20:19:05 IST" finished-at="2022-02-05T20:19:08 IST">
+        <test-method status="PASS" signature="closeTheApp()[pri:0, instance:purchageOrder.TC_11Test@f0da945]" name="closeTheApp" is-config="true" duration-ms="824" started-at="2022-02-06T13:56:02 IST" finished-at="2022-02-06T13:56:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheApp -->
-      </class> <!-- purchageOrder.TC_15Test -->
+      </class> <!-- purchageOrder.TC_11Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

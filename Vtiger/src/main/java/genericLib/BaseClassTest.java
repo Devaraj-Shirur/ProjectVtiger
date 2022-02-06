@@ -1,7 +1,5 @@
 package genericLib;
 
-import static org.testng.Assert.assertEquals;
-
 import java.util.concurrent.TimeUnit;
 
 import javax.swing.Action;
@@ -20,15 +18,17 @@ import org.testng.annotations.BeforeMethod;
 import pomRepo.HomePage;
 import pomRepo.LoginPage;
 
-public class BaseClassTest extends Constants{
+public class BaseClassTest extends Constants   {
 
 	public static WebDriver driver;
 	public LoginPage loginPage;
 	public HomePage homePage;
-	public ExcelLib excelData;
-
+	
+	
 	@BeforeClass
 	public void launchTheApplication() {
+		
+
 		System.setProperty(CHROMEKEY, CHROMEPATH);
 		driver = new ChromeDriver();
 		Reporter.log("Browser launched Successfully", true);
@@ -37,7 +37,7 @@ public class BaseClassTest extends Constants{
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		loginPage = new LoginPage(driver);
-		excelData = new ExcelLib();
+		
 
 		// Step1 Launch The Application
 		driver.get(VtURL);
@@ -60,13 +60,14 @@ public class BaseClassTest extends Constants{
 	// Step3 LogOut Of The Application
 	@AfterMethod
 	public void logoutOfTheApplication() {
-		WebElement accountButton = driver.findElement(By.xpath("//img[@title='vtiger-crm-logo.gif']/../..//img[@src='themes/softed/images/user.PNG']"));
+		WebElement accountButton = driver.findElement(
+		By.xpath("//img[@title='vtiger-crm-logo.gif']/../..//img[@src='themes/softed/images/user.PNG']"));
 		WebElement signoutButton = driver.findElement(By.xpath("//a[@class='drop_down_usersettings']"));
-		
-		Actions action =new Actions(driver);
+
+		Actions action = new Actions(driver);
 		action.moveToElement(accountButton).perform();
 		action.moveToElement(signoutButton).click().perform();
-		
+
 		Reporter.log("Logedout Successfully", true);
 
 	}

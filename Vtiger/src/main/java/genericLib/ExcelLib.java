@@ -14,11 +14,11 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
  * @author Devaraj Shirur
  *
  */
-public class ExcelLib { //ExcelUtility
+public class ExcelLib extends Constants  { //ExcelUtility
 
-	static String excelPath = "./testResources/testData.xlsx" ;
-	static File Path = new File(excelPath);
 	
+	static File Path = new File(EXCELPATH);
+
 	/**
 	 * 
 	 * @param sheetName provide the Sheet name where you have test data
