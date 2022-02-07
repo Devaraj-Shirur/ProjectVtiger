@@ -7,6 +7,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import genericLib.BaseClassTest;
 
+/***
+ * 
+ * @author Devaraj
+ *
+ */
 public class PurchageOrderPage extends BaseClassTest {
 	
 	public PurchageOrderPage(WebDriver action) {

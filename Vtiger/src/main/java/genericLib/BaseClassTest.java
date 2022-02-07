@@ -18,8 +18,13 @@ import org.testng.annotations.BeforeMethod;
 import pomRepo.HomePage;
 import pomRepo.LoginPage;
 
+/***
+ * 
+ * @author Devaraj
+ *
+ */
 public class BaseClassTest extends Constants   {
-
+	
 	public static WebDriver driver;
 	public LoginPage loginPage;
 	public HomePage homePage;

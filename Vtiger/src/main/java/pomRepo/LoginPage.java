@@ -8,6 +8,11 @@ import org.testng.Reporter;
 
 import genericLib.BaseClassTest;
 
+/***
+ * 
+ * @author Devaraj
+ *
+ */
 public class LoginPage extends BaseClassTest {
 	
 	public LoginPage(WebDriver driver) {

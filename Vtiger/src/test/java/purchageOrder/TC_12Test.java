@@ -12,7 +12,11 @@ import org.testng.annotations.Test;
 import genericLib.BaseClassTest;
 import pomRepo.HomePage;
 import pomRepo.PurchageOrderPage;
-
+/***
+ * 
+ * @author Devaraj
+ *
+ */
 public class TC_12Test extends BaseClassTest {
 
 	@Test
